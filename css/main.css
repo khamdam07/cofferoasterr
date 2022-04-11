@@ -1,0 +1,381 @@
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/barlow-v11-latin-regular.eot');
+    src: url('../fonts/barlow-v11-latin-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/barlow-v11-latin-regular.woff2') format('woff2'),
+    url('../fonts/barlow-v11-latin-regular.woff') format('woff'),
+    url('../fonts/barlow-v11-latin-regular.ttf') format('truetype'),
+    url('../fonts/barlow-v11-latin-regular.svg#Barlow') format('svg');
+  }
+
+  @font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/barlow-v11-latin-600.eot');
+    src: url('../fonts/barlow-v11-latin-600.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/barlow-v11-latin-600.woff2') format('woff2'),
+    url('../fonts/barlow-v11-latin-600.woff') format('woff'),
+    url('../fonts/barlow-v11-latin-600.ttf') format('truetype'),
+    url('../fonts/barlow-v11-latin-600.svg#Barlow') format('svg');
+  }
+
+  @font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/barlow-v11-latin-700.eot');
+    src: url('../fonts/barlow-v11-latin-700.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/barlow-v11-latin-700.woff2') format('woff2'),
+    url('../fonts/barlow-v11-latin-700.woff') format('woff'),
+    url('../fonts/barlow-v11-latin-700.ttf') format('truetype'),
+    url('../fonts/barlow-v11-latin-700.svg#Barlow') format('svg');
+  }
+
+  /* FRAUNCES */
+  @font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/fraunces-v10-latin-regular.eot');
+    src: url('../fonts/fraunces-v10-latin-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/fraunces-v10-latin-regular.woff2') format('woff2'),
+    url('../fonts/fraunces-v10-latin-regular.woff') format('woff'),
+    url('../fonts/fraunces-v10-latin-regular.ttf') format('truetype'),
+    url('../fonts/fraunces-v10-latin-regular.svg#Fraunces') format('svg');
+  }
+
+  @font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/fraunces-v10-latin-700.eot');
+    src: url('../fonts/fraunces-v10-latin-700.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/fraunces-v10-latin-700.woff2') format('woff2'),
+    url('../fonts/fraunces-v10-latin-700.woff') format('woff'),
+    url('../fonts/fraunces-v10-latin-700.ttf') format('truetype'),
+    url('../fonts/fraunces-v10-latin-700.svg#Fraunces') format('svg');
+  }
+
+  @font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/fraunces-v10-latin-900.eot');
+    src: url('../fonts/fraunces-v10-latin-900.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/fraunces-v10-latin-900.woff2') format('woff2'),
+    url('../fonts/fraunces-v10-latin-900.woff') format('woff'),
+    url('../fonts/fraunces-v10-latin-900.ttf') format('truetype'),
+    url('../fonts/fraunces-v10-latin-900.svg#Fraunces') format('svg');
+  }
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: inline-block;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+
+.container{
+  width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* HEADER GO */
+.header{
+
+    padding-top: 44px;
+}
+
+.site-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item:nth-child(1){
+    margin: 0 35px;
+}
+
+.nav-item{
+    /* padding: 35px; */
+    font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+color: #83888F;
+}
+
+.nav-item:hover{
+color: black;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+/* HEADEDR END */
+
+/* HIRO GO */
+.hero{
+    margin-bottom: 84px;
+}
+
+.hero-container{
+    background-image: url(/images/Group\ 7.png);
+    width: 1280px;
+    height: 450px;
+    margin-top: 22px;
+    border-radius: 5px;
+}
+
+.hero-title{
+    padding-left: 85px;
+    padding-top: 137px;
+font-family: 'Fraunces 9pt';
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #FEFCF7;
+}
+
+.hero-paragraf{
+    font-family: 'Barlow';
+padding-left: 85px;
+width: 445px;
+height: 104px;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+}
+/* HIRO END */
+
+/* Our commit go */
+.commit-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 165px;
+}
+
+.our-commit{
+    margin-left: 125px;
+}
+
+.our-commit-title{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #333D4B;
+}
+
+.our-commit-paragraf{
+font-family: 'Barlow';
+font-weight: 400;
+margin: 0;
+padding: 0;
+width: 540px;
+height: 260px;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+opacity: 0.8;
+}
+
+/* Our commit end */
+
+/* Quality go */
+
+.quality-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 172px auto 84px auto;
+    background-color: #293039;
+    border-radius: 5px;
+}
+
+.quality-text{
+    margin-right: 125px;
+    padding-top: 85px;
+}
+
+.quality-title{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 32px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.quality-paragraf{
+    margin: 0;
+    padding: 0;
+    width: 540px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.quality-img{
+    position: relative;
+    bottom: 88px;
+    border-radius: 10px;
+}
+
+
+/* Quality end */
+
+/* Offices go */
+.offices-container{
+    padding: 84px 0;
+}
+
+.offices-title{
+    margin: 0;
+    padding: 0;
+    margin: 0 0 72px 110px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.offices-list{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.offices-item{
+    width: 285px;
+}
+
+.offices-item:nth-child(even){
+    margin: 0 95px;
+}
+
+.offices-name{
+    margin: 0;
+    padding: 0;
+    margin: 46px 0 24px 0;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.offices-desc{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Offices end */
+
+
+.footer{
+    padding: 84px 0;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 47px 85px;
+    background-color: #2C343E;
+    border-radius: 5px;
+}
+
+.footer-nav{
+    margin-right: 265px;
+}
+
+.footer-list{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-social-list{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-item:nth-child(even){
+    margin: 0 24px;
+}
+
+
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+  }
+
+  .nav-item:nth-child(2){
+    margin: 0 33px;
+  }
+
+  .nav-link{
+    text-decoration: none;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+  }
+
+  .nav-link:hover{
+    color: black;
+  }
